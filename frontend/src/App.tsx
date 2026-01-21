@@ -14,7 +14,9 @@ import Dashboard from "./pages/Dashboard";
 import VendorRegistrationFeature from "./pages/features/VendorRegistrationFeature";
 import PermitManagement from "./pages/features/PermitManagement";
 import ZoneAllocation from "./pages/features/ZoneAllocation";
+import Compliance from "./pages/features/Compliance";
 import About from "./pages/About";
+import GISVendorMap from "./pages/GISVendorMap";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,11 +35,25 @@ const App = () => (
                 <Route path="/" element={<Index />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/features" element={<Features />} />
-                <Route path="/features/vendor-registration" element={<VendorRegistrationFeature />} />
-                <Route path="/features/permit-management" element={<PermitManagement />} />
-                <Route path="/features/zone-allocation" element={<ZoneAllocation />} />
+                <Route
+                  path="/features/vendor-registration"
+                  element={<VendorRegistrationFeature />}
+                />
+                <Route
+                  path="/features/permit-management"
+                  element={<PermitManagement />}
+                />
+                <Route
+                  path="/features/zone-allocation"
+                  element={<ZoneAllocation />}
+                />
+                <Route path="/features/compliance" element={<Compliance />} />
+                <Route path="/features/vendor-map" element={<GISVendorMap />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/register/vendor" element={<VendorRegistration />} />
+                <Route
+                  path="/register/vendor"
+                  element={<VendorRegistration />}
+                />
                 <Route path="/dashboard" element={<Dashboard />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                 <Route path="*" element={<NotFound />} />
