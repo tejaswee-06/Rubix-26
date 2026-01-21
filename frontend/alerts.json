@@ -1,0 +1,25 @@
+{
+  "alerts": [
+    {
+      "id": 1,
+      "message": "Your Fire Safety Certificate has expired",
+      "type": "critical",
+      "date": "2026-01-10",
+      "isRead": true
+    },
+    {
+      "id": 2,
+      "message": "FSSAI Food License expires in 11 days",
+      "type": "warning",
+      "date": "2026-01-20",
+      "isRead": true
+    },
+    {
+      "id": 3,
+      "message": "Business License Renewal due next month",
+      "type": "warning",
+      "date": "2026-01-19",
+      "isRead": true
+    }
+  ]
+}

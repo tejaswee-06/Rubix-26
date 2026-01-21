@@ -1,0 +1,43 @@
+{
+  "summary": {
+    "total": 5,
+    "completed": 5
+  },
+  "checklist": [
+    {
+      "id": 1,
+      "title": "FSSAI Food License",
+      "category": "License",
+      "status": "completed",
+      "expiryDate": "2026-02-01"
+    },
+    {
+      "id": 2,
+      "title": "Fire Safety Certificate",
+      "category": "Safety",
+      "status": "completed",
+      "expiryDate": "2025-12-15"
+    },
+    {
+      "id": 3,
+      "title": "Health & Hygiene Certification",
+      "category": "Health",
+      "status": "completed",
+      "expiryDate": "2026-06-30"
+    },
+    {
+      "id": 4,
+      "title": "GST Registration",
+      "category": "Tax",
+      "status": "completed",
+      "expiryDate": "2027-12-31"
+    },
+    {
+      "id": 5,
+      "title": "Business License Renewal",
+      "category": "License",
+      "status": "completed",
+      "expiryDate": "2026-03-15"
+    }
+  ]
+}
